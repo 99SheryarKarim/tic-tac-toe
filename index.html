@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tic Tac Toe</h1>
+      <div class="board">
+        <div class="row">
+          <div onclick="tap(0)" id="1" class="cell" data-cell="0"></div>
+          <div onclick="tap(1)" id="2" class="cell" data-cell="1"></div>
+          <div onclick="tap(2)" id="3" class="cell" data-cell="2"></div>
+        </div>
+        <div class="row">
+          <div onclick="tap(3)" id="4" class="cell" data-cell="3"></div>
+          <div onclick="tap(4)" id="5" class="cell" data-cell="4"></div>
+          <div onclick="tap(5)" id="6" class="cell" data-cell="5"></div>
+        </div>
+        <div class="row">
+          <div onclick="tap(6)" id="7" class="cell" data-cell="6"></div>
+          <div onclick="tap(7)" id="8" class="cell" data-cell="7"></div>
+          <div onclick="tap(8)" id="9" class="cell" data-cell="8"></div>
+        </div>
+      </div>
+      <a onclick="restart()" class="button" href="#" style="--color: #1e9bff">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Restart
+      </a>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
